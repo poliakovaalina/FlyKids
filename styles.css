@@ -122,7 +122,100 @@ padding: 14px 40px;
 .link_2-content {
   padding: 0 0 36px 0;
 }
-.title-section-content {
+
+.wrap-block{
+  background: radial-gradient(
+    174.67% 291.59% at -70.92% 30.73%,
+    #ef7f1a 29.57%,
+    #e5097f 100%
+  );
+display: block;
+  width: 600px;
+  height: 493px;
+  text-align: center;
+  
+ 
+}
+.table-block{
+
+}
+
+
+
+.title-block{
+ width: 474px;
+height: 74px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bold;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 51px 62px 30px 62px;
+
+}
+
+.td-title-block{
+  text-align: center;
+}
+.img-block-name-tb{
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 15px;
+ 
+}
+.img-block-name{
+  margin: 0;
+  padding-right: 30px;
+}
+
+.img-block-name-tb img{
+  border-radius: 10px;
+}
+.img-block-name img{
+  border-radius: 10px;
+}
+
+.icon-table-block-a, .icon-table-block-b{
+  background: #FFFFFF;
+border-radius: 10px;
+width: 262px;
+height: 98px;
+
+}
+
+.icon-table-block-a{
+  text-align: left;
+}
+.icon-block-a img{
+  padding-left: 15px;
+}
+
+.icon-block-c img{
+  padding-left: 15px;
+}
+.icon-block-b{
+  padding-left: 10px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.title-section-content {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   font-size: 30px;
@@ -135,8 +228,40 @@ padding: 14px 40px;
 
 }
 .image-card{
-    width: 100%;
+    width: 262px;
+    height: 170px;
 }
+.section-content{
+  background: radial-gradient(
+    174.67% 291.59% at -70.92% 30.73%,
+    #ef7f1a 29.57%,
+    #e5097f 100%
+  );
+display: block;
+  width: 600px;
+  height: 493px;
+  text-align: center;
+}
+.section-content span{
+width: 474px;
+height: 74px;
+font-size: 30px;
+line-height: 34px;
+
+letter-spacing: 0.02em;
+color: #FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  margin: 51px 62px 30px 62px ;
+}*/
+
+
+
+
+
 
 
 
@@ -168,5 +293,15 @@ padding: 14px 40px;
     
 }
 
+.icon-card{
+  width: 262px;
+height: 98px;
+background: #FFFFFF;
+border-radius: 10px;
 
+}
 
+.icon-card-giftb{
+ 
+  text-align: left;
+}
