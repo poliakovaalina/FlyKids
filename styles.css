@@ -51,7 +51,7 @@ display: block;
 img {
   outline: none;
   -ms-interpolation-mode: bicubic;
-  display: block;
+  
   margin: 0 auto;
   
 }
@@ -137,9 +137,11 @@ display: block;
  
 }
 .table-block{
-
+margin: 0;
 }
-
+.wrap-td-block{
+  width: 262px;
+}
 
 
 .title-block{
@@ -159,7 +161,20 @@ height: 74px;
 }
 
 .td-title-block{
+  display: inline;
+  width: 262px;
   text-align: center;
+}
+
+.td-block-box{
+  display: inline;
+  text-align: center;
+  width: 600px;
+}
+
+.img-block{
+  margin: 0;
+ 
 }
 .img-block-name-tb{
   margin: 0;
@@ -173,22 +188,97 @@ height: 74px;
 }
 
 .img-block-name-tb img{
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+ 
 }
 .img-block-name img{
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
-.icon-table-block-a, .icon-table-block-b{
+.box-name{
+  display: inline-block;
+  width: 262px;
+height: 98px;
+padding: 0;
+border-radius: 0 0 10px 10px;
+
+
+
+}
+.td-block{
+  display: block;
+ border-spacing: 15px 0;
+ border-collapse: separate;
+/*padding-right: 15px;
+padding-left: 15px;*/
+
+}
+
+.box-name-tabl{
+  display: block;
+}
+
+.box-name-td{
+  display: inline-block;
+  width: 262px;
+  height: 98px;
+  border-radius: 0 0 10px 10px;
+  padding: 0;
+}
+ 
+.icon{
+  width: 15px;
+height: 16.03px;
+padding: 12px 0 0 15px;
+display: inline-block;
+}
+
+.icon-text{
+  display: inline-block;
+  padding-left: 10px;
+  font-family: Montserrat, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #A4A4A4;
+}
+.icon-title{
+  display: inline-block;
+  padding: 37px 0 33px 15px;
+  font-family: Montserrat, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+
+color: #E5097F;
+}
+.icon-image{
+  display: inline;
+  padding: 41px 16px 41px 0;
+}
+
+
+
+
+/*.td-td{
+  padding: 0 30px 0 30px;
+  
+}*/
+
+/*.icon-table-block-a, .icon-table-block-b{
   background: #FFFFFF;
 border-radius: 10px;
 width: 262px;
 height: 98px;
+margin: 0;
 
 }
 
 .icon-table-block-a{
   text-align: left;
+  width: 600px;
 }
 .icon-block-a img{
   padding-left: 15px;
@@ -201,10 +291,26 @@ height: 98px;
   padding-left: 10px;
   
 }
+.td-icon{
+  width: 262px;
+height: 98px;
+text-align: left;
+}
 
+.card-box{
+  display: block;
+  width: 262px;
+height: 98px;
+padding: 0 15px 71px 30px;
+}
 
+.subtitle{
+  width: 600px;
+}
 
-
+.card-box-subtitle{
+  
+}*/
 
 
 
@@ -259,7 +365,14 @@ font-family: Arial, Helvetica, sans-serif;
 }*/
 
 
-
+/*.weiht-box{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 262px;
+  height: 98px;
+  margin: 0;
+  
+}*/
 
 
 
