@@ -12,6 +12,7 @@ table {
   border-spacing: 0;
   margin: 0 auto;
   padding: 0;
+  text-align: center;
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;
 }
@@ -89,15 +90,20 @@ img {
 
 .text-content {
   padding: 17px 0 35px 0;
+    display: inline-block;
+    width: 535px;
 }
 
+
 .text_2-content {
-  padding: 0 0 34px 0;
+  display: inline-block;
+
+
 }
 
 .btn-content{
     text-align: center;
-    padding: 24px 0 46px 0;
+    padding: 38px 0 61px 0;
 }
 .content-button{
     background-color:  #E5097F;
@@ -116,7 +122,9 @@ padding: 14px 40px;
 }
 
 .link-content {
-  padding: 46px 0 35px 0;
+  padding: 0 0 35px 0;
+  display: inline-block;
+  width: 537px;
 }
 
 .link_2-content {
@@ -162,14 +170,13 @@ height: 74px;
 
 .td-title-block{
   display: inline;
-  width: 262px;
   text-align: center;
 }
 
 .td-block-box{
   display: inline;
   text-align: center;
-  width: 600px;
+  
 }
 
 .img-block{
@@ -269,127 +276,19 @@ color: #E5097F;
     vertical-align: top;
 }
 
-
-
-
-/*.td-td{
-  padding: 0 30px 0 30px;
-  
-}*/
-
-/*.icon-table-block-a, .icon-table-block-b{
-  background: #FFFFFF;
-border-radius: 10px;
-width: 262px;
-height: 98px;
-margin: 0;
-
-}
-
-.icon-table-block-a{
-  text-align: left;
-  width: 600px;
-}
-.icon-block-a img{
-  padding-left: 15px;
-}
-
-.icon-block-c img{
-  padding-left: 15px;
-}
-.icon-block-b{
-  padding-left: 10px;
-  
-}
-.td-icon{
-  width: 262px;
-height: 98px;
-text-align: left;
-}
-
-.card-box{
-  display: block;
-  width: 262px;
-height: 98px;
-padding: 0 15px 71px 30px;
-}
-
-.subtitle{
-  width: 600px;
-}
-
-.card-box-subtitle{
-  
-}*/
-
-
-
-
-
-
-
-
-
-
-/*.title-section-content {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  font-size: 30px;
-  line-height: 34px;
-  font-weight: bold;
-  mso-line-height-rule: exactly;
-  font-style: normal;
-  letter-spacing: 0.02em;
-  text-align: center;
-
-}
-.image-card{
-    width: 262px;
-    height: 170px;
-}
-.section-content{
-  background: radial-gradient(
-    174.67% 291.59% at -70.92% 30.73%,
-    #ef7f1a 29.57%,
-    #e5097f 100%
-  );
-display: block;
-  width: 600px;
-  height: 493px;
-  text-align: center;
-}
-.section-content span{
-width: 474px;
-height: 74px;
-font-size: 30px;
+.footer-title{
+  font-family: Arial Black;
+font-size: 24px;
 line-height: 34px;
-
-letter-spacing: 0.02em;
-color: #FFFFFF;
-font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  mso-line-height-rule: exactly;
-  font-style: normal;
-  letter-spacing: 0.02em;
-  margin: 51px 62px 30px 62px ;
-}*/
-
-
-/*.weiht-box{
-  background: #FFFFFF;
-  border-radius: 10px;
-  width: 262px;
-  height: 98px;
-  margin: 0;
-  
-}*/
-
-
-
-
-
-
-
+align-items: center;
+letter-spacing: 0.01em;
+color: #E5097F;
+padding: 0 202px 16px 202px;
+}
+.footer-item-icon{
+  text-align: center;
+  padding: 0 0 44px 0;
+}
 
 .wrap-td-footer{
     display: block;
@@ -404,17 +303,21 @@ font-family: Arial, Helvetica, sans-serif;
 
 .menu-footer-name{
     padding-bottom: 38px;
+    font-family: Arial;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #000000;
 }
 
 .icon-footer{
-    width: 127px;
-    margin: 0;
+    
+    display: inline;
+    border-spacing: 30px 0;
+    border-collapse: separate;
 }
 
-.icon-footer-button{
-    width: 42px;
-    
-}
+
 
 .icon-card{
   width: 262px;
@@ -427,4 +330,14 @@ border-radius: 10px;
 .icon-card-giftb{
  
   text-align: left;
+}
+
+.text-footer{
+  width: 539px;
+  font-family: Arial;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #A4A4A4;
 }
