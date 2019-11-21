@@ -432,7 +432,7 @@ border-radius: 10px;
   }
 
   .menu-footer{
-    display: block;
+    display: flex;
     width: 253px;
     max-width: 600px;
     width: 42%;
