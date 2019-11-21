@@ -270,6 +270,7 @@ height: 16.03px;
 padding: 0 0 0 15px;
 display: inline-block;
 
+
 }
 
 .icon-text{
@@ -309,6 +310,7 @@ align-items: center;
 letter-spacing: 0.01em;
 color: #E5097F;
 padding-bottom: 16px;
+font-weight: 700;
 }
 .footer-item-icon{
   text-align: center;
@@ -336,7 +338,9 @@ padding-bottom: 16px;
 }
 
 .menu-footer{
-  width: 600px;
+  max-width: 600px;
+    width: 100%;
+    min-width: 320px;
 }
 
 .menu-footer-name{
@@ -397,7 +401,8 @@ border-radius: 10px;
   display: inline-block;
 }
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-device-width: 480px)
+{
   .wrap-block{
     height: 773px;
   }
@@ -430,6 +435,7 @@ border-radius: 10px;
     .menu-footer-name:nth-child(3){
       padding-right: 42px;
     }
+    
 
     .text-footer-end{
       width: 89%;
