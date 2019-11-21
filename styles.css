@@ -415,7 +415,7 @@ border-radius: 10px;
 
 
 
-@media only screen and (max-device-width: 480px)
+@media only screen and (max-device-width: 480px) 
 {
   .wrap-block{
     height: 773px;
@@ -438,7 +438,7 @@ border-radius: 10px;
     width: 42%;
     min-width: 253px;
     text-align: left;
-    padding-bottom: 38px;
+    padding: 0 38px 38px 29px;
   }
 
   .menu-footer-name{
