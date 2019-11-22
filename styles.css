@@ -464,14 +464,18 @@ only screen and (min-resolution: 144dpi)  {
   .wrap-block{
     height: 773px;
   }
-}
-
-@media only screen and  (min-device-width: 445px) and (max-device-width: 600px) {
   .img-block-name{
     padding-top: 0;
   }
   .img-block-name-tb {
+    padding-bottom: 15px;
+}
+}
+
+@media only screen and  (min-device-width: 445px) and (max-device-width: 600px)  {
+  .img-block-name-tb {
     padding-bottom: 0;
+
 }
 }
 
