@@ -312,13 +312,13 @@ color: #E5097F;
 
 .footer-title{
   font-family: Arial Black;
-font-size: 24px;
-line-height: 34px;
-align-items: center;
-letter-spacing: 0.01em;
-color: #E5097F;
-padding-bottom: 16px;
-font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #E5097F;
+  padding: 22px 0 16px 0;
+  font-weight: 700;
 }
 .footer-item-icon{
   text-align: center;
@@ -413,22 +413,27 @@ border-radius: 10px;
   color: #00a0e2;
 }
 
-
-
-@media only screen and (max-device-width: 480px) 
-{
+@media only screen and (max-device-width: 568px) {
   .wrap-block{
     height: 773px;
   }
 
   .img-block-name-tb{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 30px;
+    padding-right: 15px;
   }
 
   .img-block-name{
     padding-top: 15px;
     
+  }
+}
+
+@media only screen and (max-device-width: 480px) 
+{
+  .img-block-name-tb{
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .menu-footer{
@@ -436,23 +441,19 @@ border-radius: 10px;
     width: 253px;
     max-width: 600px;
     width: 42%;
-    min-width: 253px;
-    text-align: left;
-    padding: 0 38px 38px 29px;
+    min-width: 320px;
   }
 
   .menu-footer-name{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    min-width: 320px;
     padding-bottom: 16px;
   }
 
-    .menu-footer-name:first-child{
-      padding-right: 77px;
-    }
-  
-    .menu-footer-name:nth-child(3){
-      padding-right: 42px;
-    }*/
+    
     
 
     .text-footer-end{
