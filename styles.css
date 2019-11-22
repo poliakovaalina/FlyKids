@@ -457,10 +457,8 @@ only screen and (min-resolution: 144dpi)  {
    }
 }
 
-@media only screen and (max-device-width: 445px){
-  .box-name{
-    padding-bottom: 15px;
-  }
+@media only screen and (max-device-width: 414px){
+  
   .wrap-block{
     height: 773px;
   }
@@ -469,7 +467,9 @@ only screen and (min-resolution: 144dpi)  {
   }
   .img-block-name-tb {
     padding-bottom: 15px;
+    padding-right: 0;
 }
+
 }
 
 @media only screen and  (min-device-width: 445px) and (max-device-width: 600px)  {
