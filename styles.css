@@ -191,7 +191,7 @@ margin: 0;
   font-size: 30px;
   line-height: 34px;
   font-weight: bold;
-  mso-line-height-rule: exactly;
+  /*mso-line-height-rule: exactly;*/
   font-style: normal;
   letter-spacing: 0.02em;
   text-align: center;
